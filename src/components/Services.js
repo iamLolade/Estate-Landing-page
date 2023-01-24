@@ -68,7 +68,7 @@ export default function Services() {
                             fontWeight={700}
                             color='#334155'
                         >
-                            Working with us is a pleasure
+                            We are a growing company
                         </Text>
                         <Text w={400}>
                             Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.

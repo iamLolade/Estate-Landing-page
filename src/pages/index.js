@@ -5,6 +5,7 @@ import Meta from '@/components/Meta'
 import Navbar from '@/components/Navbar'
 import Header from '@/components/Header'
 import Services from '@/components/Services'
+import Team from '@/components/Team'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           <main>
             <Header />
             <Services />
+            <Team />
           </main>
         </Box>
      </Box>
