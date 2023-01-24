@@ -6,7 +6,11 @@ import { MdVerified } from 'react-icons/md'
 
 export default function Header() {
     return (
-        <Box bg='#E2E8F0' pb='.5em'>
+        <Box 
+            bg='#E2E8F0'
+            // bg=''
+            pb='.5em'
+        >
             <Flex 
                 align={'center'} 
                 justify={'center'} 
@@ -14,6 +18,7 @@ export default function Header() {
                 bg={`url('https://i.ibb.co/yqFg8Sv/pexels-evgeny-tchebotarev-2187605.jpg')`}
                 bgRepeat='no-repeat'
                 //  w='100%'
+                w='100vw'
                 bgSize={'cover'}
                 overlay='0.2'
                 // objectFit={'cover'}
