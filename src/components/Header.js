@@ -23,7 +23,7 @@ export default function Header() {
                     Your story starts with us.
                 </Heading>
             </Flex>
-            <Center my={'2em'}>
+            <Center my={'2em'} ml='1em'>
                 <Wrap spacing={8}>
                     <WrapItem 
                         p='1em' 
@@ -31,6 +31,8 @@ export default function Header() {
                         boxShadow="lg"
                         borderRadius={6}
                         bg={'#fff'}
+                        cursor='pointer'
+                        _hover={{ transform: 'scale(1.03, 1.03)' }}
                     >
                         <Flex direction={'column'} align='center' justify={'center'} gap='5'>
                             <Box borderRadius={'50%'} py={1} px={2} bg={'#CD0406'}>
@@ -48,6 +50,8 @@ export default function Header() {
                         boxShadow="lg"
                         borderRadius={6}
                         bg={'#fff'}
+                        _hover={{ transform: 'scale(1.03, 1.03)' }}
+                        cursor='pointer'
                     >
                         <Flex direction={'column'} align='center' justify={'center'} gap='6'>
                             <Box borderRadius={'50%'} p={1} px={2} bg={'#38BDF8'}>
@@ -64,6 +68,8 @@ export default function Header() {
                         w='350px'
                         boxShadow="lg"
                         borderRadius={6}
+                        cursor='pointer'
+                        _hover={{ transform: 'scale(1.03, 1.03)' }}
                         bg={'#fff'}
                     >
                         <Flex direction={'column'} align='center' justify={'center'} gap='6'>
