@@ -3,19 +3,20 @@ import {
     Image
 } from "@chakra-ui/react"
 import { TiGroup } from 'react-icons/ti'
+import { GiStumpRegrowth } from 'react-icons/gi'
 
 export default function Services() {
     return (
         <Box my={'3em'}>
-            <Center my={'2em'}>
-                <Stack direction={['column', 'row']} spacing={80}>
+            <Center my={'4em'}>
+                <Stack direction={['column', 'row']} spacing={35}>
                     <Flex 
                         direction='column' 
                         gap={6} 
                         bg='#E2E8F0'
                         borderRadius='lg'
                         p='2em'
-                        px={'4em'}
+                        px={'3em'}
                     >
                         <Box p={2} px={3} borderRadius='50%' bg='#fff' w='fit-content' boxShadow='lg'>
                             <Icon as={TiGroup} boxSize={8} color='#CD0406' />
@@ -38,18 +39,20 @@ export default function Services() {
                     <Flex 
                         direction='column'
                         borderRadius='lg'
+                        w={500}   
                     >
-                        <Image w='100%' />
+                        <Image w='100%' h='400' src='https://i.ibb.co/2MBqvwS/pexels-rodnae-productions-8293778.jpg' borderRadius='lg' />
                     </Flex>
                 </Stack>
             </Center>
-            <Center my={'2em'}>
-                <Stack direction={['column', 'row']} spacing={80}>
+            <Center my={'4em'}>
+                <Stack direction={['column', 'row']} spacing={35}>
                     <Flex 
                         direction='column'
                         borderRadius='lg'
+                        w={500}
                     >
-                        <Image w='100%' />
+                        <Image w='100%' h='400' src='https://i.ibb.co/2PJyFHH/pexels-graphicgumcom-1115804.jpg' borderRadius='lg' />
                     </Flex>
 
                     <Flex 
@@ -58,10 +61,10 @@ export default function Services() {
                         bg='#E2E8F0'
                         borderRadius='lg'
                         p='2em'
-                        px={'4em'}
+                        px={'3em'}
                     >
                         <Box p={2} px={3} borderRadius='50%' bg='#fff' w='fit-content' boxShadow='lg'>
-                            <Icon as={TiGroup} boxSize={8} color='#CD0406' />
+                            <Icon as={GiStumpRegrowth} boxSize={8} color='#CD0406' />
                         </Box>
                         <Text 
                             fontSize={'1.5em'}

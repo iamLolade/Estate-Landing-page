@@ -6,9 +6,7 @@ export default function Team() {
             <Center
                 p={'2em'}
                 px={'4em'}
-                // bg='#fff'
                 borderRadius={'lg'}
-                // my={'2em'}
                 d='flex'
                 flexDirection={'column'}
                 // gap={12}
@@ -24,7 +22,7 @@ export default function Team() {
                 <Wrap spacing={16}>
                     <WrapItem>
                         <Flex direction={'column'} gap={4} align={'center'}>
-                            <Avatar size='xl' src='https://bit.ly/tioluwani-kolawole' name='John Doe' />
+                            <Avatar size='xl' src='https://bit.ly/kent-c-dodds' name='John Doe' />
                             <Text
                                 fontSize={'1.3em'}
                                 fontWeight={800}

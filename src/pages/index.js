@@ -6,13 +6,14 @@ import Navbar from '@/components/Navbar'
 import Header from '@/components/Header'
 import Services from '@/components/Services'
 import Team from '@/components/Team'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
     <>
      <Box 
       h={'100vh'}
-      bg={`url('https://i.ibb.co/k2T4D0D/gram-stones-banner-removebg-preview.png')`}
+      // bg={`url('https://i.ibb.co/k2T4D0D/gram-stones-banner-removebg-preview.png')`}
       bgRepeat='no-repeat'
       bgSize={'contain'}
       // blur='2xl'
@@ -24,6 +25,7 @@ export default function Home() {
             <Header />
             <Services />
             <Team />
+            <Contact />
           </main>
         </Box>
      </Box>

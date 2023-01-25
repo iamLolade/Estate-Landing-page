@@ -7,7 +7,7 @@ export default function Navbar() {
         align={'center'}
         justify={'space-between'}
         py='1em'
-        px='3em'
+        px='4em'
         bg='transparent'
     >
         <Heading 
