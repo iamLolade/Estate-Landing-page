@@ -8,7 +8,7 @@ const center = {
 
 export default function Contact() {
     return (
-        <Box py={'3em'} bg='#1E293B'>
+        <Box py={'3em'} bg='#1E293B' id='contact'>
             <Flex
                 bg='#E2E8F0'
                 py={'2em'}
