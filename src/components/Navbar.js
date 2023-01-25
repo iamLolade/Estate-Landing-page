@@ -10,18 +10,20 @@ export default function Navbar() {
         px='4em'
         bg='transparent'
     >
-        <Flex align={'center'}>
-            <Image src='https://i.ibb.co/z4MwJYN/IMG-20230124-WA0002-removebg-preview.png' h='10' />
-            <Heading 
-                as='h1' 
-                fontSize={'1.2em'} 
-                fontWeight={900}
-                textTransform={'uppercase'}
-                color='#868686'
-            >
-                Gram <Text as='b' fontWeight={900} color='#CD0406'>Stones</Text>
-            </Heading>
-        </Flex>
+        <Link href='#header'>
+            <Flex align={'center'}>
+                <Image src='https://i.ibb.co/z4MwJYN/IMG-20230124-WA0002-removebg-preview.png' h='10' />
+                <Heading 
+                    as='h1' 
+                    fontSize={'1.2em'} 
+                    fontWeight={900}
+                    textTransform={'uppercase'}
+                    color='#868686'
+                >
+                    Gram <Text as='b' fontWeight={900} color='#CD0406'>Stones</Text>
+                </Heading>
+            </Flex>
+        </Link>
 
         <Flex 
             align={'center'} 

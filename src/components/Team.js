@@ -9,7 +9,6 @@ export default function Team() {
                 borderRadius={'lg'}
                 d='flex'
                 flexDirection={'column'}
-                // gap={12}
             >
                 <Text
                     fontSize={'2em'}

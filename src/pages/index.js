@@ -14,10 +14,6 @@ export default function Home() {
     <>
      <Box 
       h={'100vh'}
-      // bg={`url('https://i.ibb.co/k2T4D0D/gram-stones-banner-removebg-preview.png')`}
-      bgRepeat='no-repeat'
-      bgSize={'contain'}
-      // blur='2xl'
      >
         <Meta />
         <Navbar />

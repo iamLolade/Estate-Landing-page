@@ -8,7 +8,7 @@ import { GiStumpRegrowth } from 'react-icons/gi'
 export default function Services() {
     return (
         <Box my={'3em'} id='services'>
-            <Center my={'4em'}>
+            <Center my={'6em'}>
                 <Stack direction={['column', 'row']} spacing={35}>
                     <Flex 
                         direction='column' 
@@ -45,7 +45,7 @@ export default function Services() {
                     </Flex>
                 </Stack>
             </Center>
-            <Center my={'4em'}>
+            <Center my={'6em'}>
                 <Stack direction={['column', 'row']} spacing={35}>
                     <Flex 
                         direction='column'

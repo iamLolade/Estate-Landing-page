@@ -8,8 +8,8 @@ export default function Header() {
     return (
         <Box 
             bg='#E2E8F0'
-            // bg=''
             pb='.5em'
+            id='header'
         >
             <Flex 
                 align={'center'} 
@@ -17,11 +17,9 @@ export default function Header() {
                 h={'60vh'}
                 bg={`url('https://i.ibb.co/yqFg8Sv/pexels-evgeny-tchebotarev-2187605.jpg')`}
                 bgRepeat='no-repeat'
-                //  w='100%'
                 w='100vw'
                 bgSize={'cover'}
                 overlay='0.2'
-                // objectFit={'cover'}
                 color='#fff'
             >
                 <Heading as='h1' fontSize={'3em'}>
@@ -64,7 +62,7 @@ export default function Header() {
                             </Box>
                             <Text fontSize='1.2em' fontWeight={700}>Management</Text>
                             <Text fontSize='.9em' textAlign={'center'} color={'#64748B'}>
-                            Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
+                                Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
                             </Text>
                         </Flex>
                     </WrapItem>
@@ -83,7 +81,7 @@ export default function Header() {
                             </Box>
                             <Text fontSize='1.2em' fontWeight={700}>Best Locations</Text>
                             <Text fontSize='.9em' textAlign={'center'} color={'#64748B'}>
-                            Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
+                                Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
                             </Text>
                         </Flex>
                     </WrapItem>

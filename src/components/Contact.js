@@ -16,7 +16,6 @@ export default function Contact() {
                 w='fit-content'
                 direction={'column'}
                 justify={'center'}
-                // align={'center'}
                 style={center}
                 borderRadius='lg'
             >
@@ -24,7 +23,6 @@ export default function Contact() {
                     color='#334155'
                     fontSize={'1.5em'}
                     fontWeight={800}
-                    // mb={'1em'}
                     textAlign={'left'}
                 >
                     Want to work with us?
