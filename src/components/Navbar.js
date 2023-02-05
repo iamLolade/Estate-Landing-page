@@ -20,7 +20,7 @@ export default function Navbar() {
                     textTransform={'uppercase'}
                     color='#868686'
                 >
-                    Gram <Text as='b' fontWeight={900} color='#CD0406'>Stones</Text>
+                    Company <Text as='b' fontWeight={900} color='#CD0406'>Name</Text>
                 </Heading>
             </Flex>
         </Link>
