@@ -22,7 +22,7 @@ export default function Header() {
                 overlay='0.2'
                 color='#fff'
             >
-                <Heading as='h1' fontSize={'3em'}>
+                <Heading as='h1' fontSize={{base: '1.8em', md: '2.5em', lg: '3em'}}>
                     Your story starts with us.
                 </Heading>
             </Flex>
