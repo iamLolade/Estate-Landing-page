@@ -17,7 +17,7 @@ export default function Home() {
      >
         <Meta />
         <Navbar />
-        <Box h={'94vh'} overflowY={'scroll'}>
+        <Box h={'92vh'} overflowY={'scroll'}>
           <main>
             <Header />
             <Services />

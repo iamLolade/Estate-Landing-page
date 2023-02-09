@@ -27,17 +27,17 @@ export default function Navbar() {
 
         <Flex 
             align={'center'} 
-            color='#CD0406' 
-            gap={{base: '1', md: '3', lg: '6'}}
+            color='#334155' 
+            gap={{base: '1', md: '3', lg: '4'}}
             fontWeight={800}
-            fontSize={{base: '.7em', md: '.9em', lg: '1em'}}
+            fontSize={{base: '.7em', md: '.9em', lg: '.9em'}}
         >
             <Link href='#services'>
                 <Text 
-                    px='1em'
+                    px='.8em'
                     py='.5em' 
-                    _hover={{bg: '#CD0406', color: '#fff'}} 
-                    borderRadius={'md'}
+                    // _hover={{bg: '#CD0406', color: '#fff'}} 
+                    _hover={{ color: '#CD0406', borderBottom: '2.5px solid #CD0406'}}
                     cursor='pointer'
                 >
                     Services
@@ -47,8 +47,8 @@ export default function Navbar() {
                 <Text
                     px='1em' 
                     py='.5em' 
-                    _hover={{bg: '#CD0406', color: '#fff'}} 
-                    borderRadius={'md'}
+                    // _hover={{bg: '#CD0406', color: '#fff'}} 
+                    _hover={{ color: '#CD0406', borderBottom: '2.5px solid #CD0406'}}
                     cursor='pointer'
                 >
                     Contact
