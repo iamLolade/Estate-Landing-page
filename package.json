@@ -1,9 +1,10 @@
 {
-  "name": "gram-stones",
+  "name": "real-estate",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "16.x",
+    "npm": "9.4.1"
   },
   "scripts": {
     "dev": "next dev",
