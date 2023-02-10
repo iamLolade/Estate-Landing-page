@@ -10,7 +10,7 @@ export default function Footer() {
                     fontWeight={800}
                     color='#334155'
                 >
-                    Let's keep in touch!
+                    Lets keep in touch!
                 </Text>
                 <Text color='#334155' fontWeight={800}>Email: company@example.com</Text>
                 <Text
