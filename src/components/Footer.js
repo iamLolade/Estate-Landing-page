@@ -22,9 +22,9 @@ export default function Footer() {
                 Find us on any of these platforms, we respond 1-2 business days.
                 </Text>
                 <Flex align={'center'} justify={'center'} gap={6} mt='1em'>
-                    <Image src='https://i.ibb.co/THKFGVF/twitter-1.png' h='9' />
-                    <Image src='https://i.ibb.co/DLYBbFq/instagram-4.png' h='9' />
-                    <Image src='https://i.ibb.co/tB88fVz/facebook-1.png' h='9' />
+                    <Image src='https://i.ibb.co/THKFGVF/twitter-1.png' h='9' alt='twitter' />
+                    <Image src='https://i.ibb.co/DLYBbFq/instagram-4.png' h='9' alt='instagram' />
+                    <Image src='https://i.ibb.co/tB88fVz/facebook-1.png' h='9' alt='facebook'/>
                 </Flex>
             </Box>
 

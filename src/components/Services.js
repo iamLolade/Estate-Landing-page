@@ -41,7 +41,7 @@ export default function Services() {
                         borderRadius='lg'
                         w={{ base: '100%', lg: 500}}   
                     >
-                        <Image w='100%' h='400' src='https://i.ibb.co/2MBqvwS/pexels-rodnae-productions-8293778.jpg' borderRadius='lg' />
+                        <Image w='100%' h='400' src='https://i.ibb.co/2MBqvwS/pexels-rodnae-productions-8293778.jpg' borderRadius='lg' alt='service1'/>
                     </Flex>
                 </Stack>
             </Center>
@@ -52,7 +52,7 @@ export default function Services() {
                         borderRadius='lg'
                         w={{ base: '100%', lg: 500}}   
                     >
-                        <Image w='100%' h='400' src='https://i.ibb.co/2PJyFHH/pexels-graphicgumcom-1115804.jpg' borderRadius='lg' />
+                        <Image w='100%' h='400' src='https://i.ibb.co/2PJyFHH/pexels-graphicgumcom-1115804.jpg' borderRadius='lg' alt='service2' />
                     </Flex>
 
                     <Flex 
