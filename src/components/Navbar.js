@@ -37,7 +37,7 @@ export default function Navbar() {
                     px='.8em'
                     py='.5em' 
                     // _hover={{bg: '#CD0406', color: '#fff'}} 
-                    _hover={{ color: '#CD0406', borderBottom: '2.5px solid #CD0406'}}
+                    _hover={{ color: '#CD0406', borderBottom: '2px solid #CD0406'}}
                     cursor='pointer'
                 >
                     Services
@@ -48,7 +48,7 @@ export default function Navbar() {
                     px='1em' 
                     py='.5em' 
                     // _hover={{bg: '#CD0406', color: '#fff'}} 
-                    _hover={{ color: '#CD0406', borderBottom: '2.5px solid #CD0406'}}
+                    _hover={{ color: '#CD0406', borderBottom: '2px solid #CD0406'}}
                     cursor='pointer'
                 >
                     Contact
