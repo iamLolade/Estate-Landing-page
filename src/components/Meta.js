@@ -7,7 +7,7 @@ export default function Meta() {
             <meta name="description" content="Real Estate Website" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
-            <title>Gram Stones</title>
+            <title>Real Estate</title>
         </Head>
     )
 }
