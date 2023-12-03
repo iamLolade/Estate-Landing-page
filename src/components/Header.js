@@ -15,7 +15,7 @@ export default function Header() {
                 align={'center'} 
                 justify={'center'} 
                 h={'60vh'}
-                bg={`url('https://i.ibb.co/yqFg8Sv/pexels-evgeny-tchebotarev-2187605.jpg')`}
+                bg={`url('https://i.ibb.co/YypRSYb/pexels-binyamin-mellish-1396122.jpg')`}
                 bgRepeat='no-repeat'
                 w='100vw'
                 bgSize={'cover'}
