@@ -7,7 +7,7 @@ import { MdVerified } from 'react-icons/md'
 export default function Header() {
     return (
         <Box 
-            bg='#E2E8F0'
+            bg='#1E293B'
             pb='.5em'
             id='header'
         >
